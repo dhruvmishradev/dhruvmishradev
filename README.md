@@ -398,8 +398,7 @@ I am actively open to discussions regarding **AI Engineer**, **Full-Stack Develo
 <br/><br/>
 
 ```text
-printf("exit code 0: thank you for reviewing my profile · let's build
-");
+printf("0 errors · 0 warnings · ready to build high-impact software\n");
 ```
 
 <!-- Footer Wave -->
