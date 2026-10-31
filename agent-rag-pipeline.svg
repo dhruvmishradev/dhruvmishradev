@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 460" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="canvasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Glowing Gradients -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+
+    <!-- Node Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #94a3b8; }
+    .status-text { font-family: monospace; font-size: 11px; fill: #38bdf8; }
+    .node-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #f8fafc; }
+    .node-desc { font-family: monospace; font-size: 10px; fill: #94a3b8; }
+    .badge-text { font-family: monospace; font-size: 9px; font-weight: 600; fill: #cbd5e1; }
+    
+    /* Flow Line Animation */
+    .flow-line { stroke: #334155; stroke-width: 2; stroke-dasharray: 4 4; }
+    .active-beam {
+      stroke-width: 2.5;
+      stroke-dasharray: 10 30;
+      animation: beamTravel 2.5s linear infinite;
+    }
+    .beam-cyan { stroke: #38bdf8; filter: drop-shadow(0 0 3px #38bdf8); }
+    .beam-purple { stroke: #a855f7; filter: drop-shadow(0 0 3px #a855f7); }
+    .beam-green { stroke: #34d399; filter: drop-shadow(0 0 3px #34d399); }
+    .beam-orange { stroke: #fb923c; filter: drop-shadow(0 0 3px #fb923c); }
+
+    @keyframes beamTravel {
+      from { stroke-dashoffset: 80; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    /* Pulse Radar Animation */
+    @keyframes pulseRing {
+      0% { r: 4; opacity: 1; }
+      100% { r: 16; opacity: 0; }
+    }
+    .ping-circle {
+      animation: pulseRing 1.8s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+    /* Card Glow Animations */
+    @keyframes cardBorderPulse {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 1; }
+    }
+    .pulse-border-cyan { animation: cardBorderPulse 3s ease-in-out infinite; }
+    .pulse-border-purple { animation: cardBorderPulse 2.5s ease-in-out infinite 0.5s; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="936" height="456" rx="14" fill="url(#canvasGrad)" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.08">
+    <path d="M 0 60 L 940 60 M 0 120 L 940 120 M 0 180 L 940 180 M 0 240 L 940 240 M 0 300 L 940 300 M 0 360 L 940 360 M 0 420 L 940 420" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M 120 0 L 120 460 M 240 0 L 240 460 M 360 0 L 360 460 M 480 0 L 480 460 M 600 0 L 600 460 M 720 0 L 720 460 M 840 0 L 840 460" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+
+  <!-- Top Terminal Header -->
+  <rect x="2" y="2" width="936" height="46" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5"/>
+  <circle cx="24" cy="24" r="5" fill="#ef4444"/>
+  <circle cx="40" cy="24" r="5" fill="#eab308"/>
+  <circle cx="56" cy="24" r="5" fill="#22c55e"/>
+  <text x="78" y="28" class="title-text">AUTONOMOUS MULTI-AGENT &amp; HYBRID RAG ARCHITECTURE</text>
+  
+  <!-- Live Signal Indicator -->
+  <circle cx="800" cy="24" r="4" fill="#10b981"/>
+  <circle cx="800" cy="24" class="ping-circle" fill="none" stroke="#10b981" stroke-width="1.5"/>
+  <text x="812" y="28" class="status-text">PIPELINE ACTIVE · &lt;500ms TTFT</text>
+
+  <!-- ==================== FLOW CONNECTORS ==================== -->
+  <!-- 1. Client to Gateway -->
+  <path d="M 155 235 L 210 235" class="flow-line"/>
+  <path d="M 155 235 L 210 235" class="active-beam beam-cyan"/>
+
+  <!-- 2. Gateway to Router -->
+  <path d="M 330 235 L 385 235" class="flow-line"/>
+  <path d="M 330 235 L 385 235" class="active-beam beam-cyan"/>
+
+  <!-- 3. Router Branches to 3 Parallel Tools -->
+  <!-- Branch to Web Tool -->
+  <path d="M 480 215 C 505 215, 505 135, 545 135" class="flow-line"/>
+  <path d="M 480 215 C 505 215, 505 135, 545 135" class="active-beam beam-purple"/>
+
+  <!-- Branch to RAG Tool -->
+  <path d="M 480 235 L 545 235" class="flow-line"/>
+  <path d="M 480 235 L 545 235" class="active-beam beam-green"/>
+
+  <!-- Branch to Media Tool -->
+  <path d="M 480 255 C 505 255, 505 335, 545 335" class="flow-line"/>
+  <path d="M 480 255 C 505 255, 505 335, 545 335" class="active-beam beam-orange"/>
+
+  <!-- 4. Tools Merge to Inference Accelerator -->
+  <path d="M 695 135 C 730 135, 730 215, 760 215" class="flow-line"/>
+  <path d="M 695 135 C 730 135, 730 215, 760 215" class="active-beam beam-purple"/>
+
+  <path d="M 695 235 L 760 235" class="flow-line"/>
+  <path d="M 695 235 L 760 235" class="active-beam beam-green"/>
+
+  <path d="M 695 335 C 730 335, 730 255, 760 255" class="flow-line"/>
+  <path d="M 695 335 C 730 335, 730 255, 760 255" class="active-beam beam-orange"/>
+
+  <!-- 5. Return Token Stream loopback to Gateway (Lower Route) -->
+  <path d="M 830 270 C 830 420, 270 420, 270 275" class="flow-line" stroke="#38bdf8"/>
+  <path d="M 830 270 C 830 420, 270 420, 270 275" class="active-beam beam-cyan" style="animation-duration: 3.2s;"/>
+
+
+  <!-- ==================== ARCHITECTURE NODES ==================== -->
+
+  <!-- NODE 1: CLIENT APPLICATION -->
+  <g transform="translate(30, 185)">
+    <rect width="125" height="100" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="1.8" class="pulse-border-cyan"/>
+    <rect x="10" y="10" width="28" height="20" rx="4" fill="#0284c7" opacity="0.3"/>
+    <text x="24" y="24" font-size="12" text-anchor="middle" fill="#38bdf8">⚛️</text>
+    <text x="12" y="50" class="node-title">Client Tier</text>
+    <text x="12" y="66" class="node-desc">Next.js 16 · RSC</text>
+    <text x="12" y="80" class="node-desc">React 19 Hooks</text>
+    <rect x="12" y="86" width="70" height="12" rx="3" fill="#1e293b"/>
+    <text x="16" y="95" class="badge-text" fill="#38bdf8">SSE STREAM</text>
+  </g>
+
+  <!-- NODE 2: FASTAPI GATEWAY -->
+  <g transform="translate(210, 185)">
+    <rect width="120" height="100" rx="10" fill="#0f172a" stroke="#0ea5e9" stroke-width="1.5"/>
+    <rect x="10" y="10" width="28" height="20" rx="4" fill="#0284c7" opacity="0.2"/>
+    <text x="24" y="24" font-size="12" text-anchor="middle" fill="#38bdf8">⚡</text>
+    <text x="12" y="50" class="node-title">API Gateway</text>
+    <text x="12" y="66" class="node-desc">FastAPI + Uvicorn</text>
+    <text x="12" y="80" class="node-desc">Async Workers</text>
+    <rect x="12" y="86" width="74" height="12" rx="3" fill="#1e293b"/>
+    <text x="16" y="95" class="badge-text" fill="#0ea5e9">HTTP/2 REST</text>
+  </g>
+
+  <!-- NODE 3: AGENT ROUTER & PLANNER -->
+  <g transform="translate(385, 175)">
+    <rect width="115" height="120" rx="10" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.8" class="pulse-border-purple"/>
+    <rect x="10" y="10" width="28" height="20" rx="4" fill="#6366f1" opacity="0.3"/>
+    <text x="24" y="24" font-size="12" text-anchor="middle" fill="#a855f7">🧠</text>
+    <text x="12" y="50" class="node-title">Agent Router</text>
+    <text x="12" y="66" class="node-desc">LangChain LCEL</text>
+    <text x="12" y="80" class="node-desc">Parallel DAG</text>
+    <text x="12" y="94" class="node-desc">Tool Decision</text>
+    <rect x="12" y="102" width="76" height="12" rx="3" fill="#312e81"/>
+    <text x="16" y="111" class="badge-text" fill="#c084fc">DYNAMIC DAG</text>
+  </g>
+
+  <!-- ==================== PARALLEL TOOL MATRIX ==================== -->
+
+  <!-- TOOL 1: WEB INTELLIGENCE -->
+  <g transform="translate(545, 95)">
+    <rect width="150" height="78" rx="8" fill="#131b2e" stroke="#818cf8" stroke-width="1.3"/>
+    <text x="12" y="22" font-size="12" fill="#818cf8">🌐</text>
+    <text x="32" y="22" class="node-title">Web Intelligence</text>
+    <text x="12" y="42" class="node-desc">Tavily Search API</text>
+    <text x="12" y="56" class="node-desc">BeautifulSoup4 Scraper</text>
+    <rect x="12" y="62" width="68" height="11" rx="2" fill="#1e1b4b"/>
+    <text x="16" y="70" class="badge-text" fill="#a5b4fc">LIVE WEB DATA</text>
+  </g>
+
+  <!-- TOOL 2: RAG & VECTOR ENGINE -->
+  <g transform="translate(545, 195)">
+    <rect width="150" height="78" rx="8" fill="#062e24" stroke="#10b981" stroke-width="1.5"/>
+    <text x="12" y="22" font-size="12" fill="#10b981">📚</text>
+    <text x="32" y="22" class="node-title">Hybrid RAG Engine</text>
+    <text x="12" y="42" class="node-desc">Chroma / FAISS Vectors</text>
+    <text x="12" y="56" class="node-desc">Recursive Text Chunks</text>
+    <rect x="12" y="62" width="78" height="11" rx="2" fill="#064e3b"/>
+    <text x="16" y="70" class="badge-text" fill="#6ee7b7">SEMANTIC INDEX</text>
+  </g>
+
+  <!-- TOOL 3: MULTIMODAL MEDIA ENGINE -->
+  <g transform="translate(545, 295)">
+    <rect width="150" height="78" rx="8" fill="#2d1506" stroke="#f97316" stroke-width="1.3"/>
+    <text x="12" y="22" font-size="12" fill="#f97316">🎬</text>
+    <text x="32" y="22" class="node-title">Media Processor</text>
+    <text x="12" y="42" class="node-desc">yt-dlp Video Stream</text>
+    <text x="12" y="56" class="node-desc">FFmpeg Audio Chunking</text>
+    <rect x="12" y="62" width="70" height="11" rx="2" fill="#431407"/>
+    <text x="16" y="70" class="badge-text" fill="#fdba74">AUDIO NORMAL</text>
+  </g>
+
+
+  <!-- NODE 4: HIGH-THROUGHPUT INFERENCE ACCELERATOR -->
+  <g transform="translate(760, 165)">
+    <rect width="150" height="140" rx="12" fill="#0f172a" stroke="#f43f5e" stroke-width="1.8" filter="url(#glowPurple)"/>
+    <rect width="150" height="140" rx="12" fill="#0f172a" stroke="url(#cyanGrad)" stroke-width="2"/>
+    <rect x="10" y="10" width="30" height="22" rx="4" fill="#f43f5e" opacity="0.2"/>
+    <text x="25" y="26" font-size="12" text-anchor="middle" fill="#fb7185">⚡</text>
+    <text x="12" y="52" class="node-title">LPU Inference</text>
+    <text x="12" y="68" class="node-desc">Groq LPU (Llama 3)</text>
+    <text x="12" y="82" class="node-desc">OpenAI / Gemini Fallback</text>
+    <text x="12" y="96" class="node-desc">Pydantic Strict Typings</text>
+    <rect x="12" y="110" width="126" height="20" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+    <text x="22" y="123" class="badge-text" fill="#a7f3d0">480+ TOKENS/SEC STREAM</text>
+  </g>
+
+  <!-- Lower Flow Return Label -->
+  <g transform="translate(480, 422)">
+    <rect x="-80" y="-12" width="160" height="18" rx="9" fill="#0b1120" stroke="#38bdf8" stroke-width="1"/>
+    <text x="0" y="1" font-family="monospace" font-size="9" fill="#38bdf8" text-anchor="middle">◀ SSE REAL-TIME TOKEN STREAM ◀</text>
+  </g>
+</svg>
