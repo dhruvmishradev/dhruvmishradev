@@ -1,27 +1,27 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1e1b4b,70:312e81,100:0284c7&height=280&section=header&text=Dhruv%20Mishra&fontSize=64&fontAlignY=38&desc=Autonomous%20AI%20Agents%20%E2%80%A2%20Enterprise%20RAG%20%E2%80%A2%20Full-Stack%20Systems&descAlignY=62&descSize=18&fontColor=ffffff" width="100%" alt="Dhruv Mishra Header"/>
+<!-- Hero Header Banner (Cyberpunk Aurora) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:1a0636,65:7928ca,100:00f0ff&height=270&section=header&text=Dhruv%20Mishra&fontSize=62&fontAlignY=38&desc=Autonomous%20AI%20Agents%20%E2%80%A2%20Enterprise%20RAG%20%E2%80%A2%20Full-Stack%20Systems&descAlignY=62&descSize=18&fontColor=ffffff" width="100%" alt="Dhruv Mishra Header"/>
 
-<!-- Dynamic Typewriter Hook -->
+<!-- Typewriter Terminal Hook -->
 <a href="https://github.com/dhruvmishradev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=780&lines=Autonomous+Multi-Agent+Workflows+%26+Tool-Calling;Low-Latency+LLM+Inference+with+Groq%2C+FastAPI+%26+LCEL;Enterprise+RAG+Pipelines+with+Hybrid+Retrieval;Full-Stack+Architectures+with+Next.js+16+%26+React+19;Turning+Complex+AI+Concepts+into+Deployed+Production+Tools." alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&lines=Autonomous+Multi-Agent+Workflows+%26+Hybrid+RAG+Pipelines;Low-Latency+480%2B+tok%2Fs+Inference+with+Groq+LPUs+%26+FastAPI;Full-Stack+Architectures+with+Next.js+16+%26+React+19;Shipping+Production-Grade+AI+Tools+with+Deterministic+Rigor." alt="Typing SVG"/>
 </a>
 
 <br/>
 
-<!-- Status Badges & Quick Stats -->
-<a href="https://github.com/dhruvmishradev"><img src="https://komarev.com/ghpvc/?username=dhruvmishradev&style=flat-square&color=0284c7&label=PROFILE+VIEWS" alt="Profile Views"/></a>
-<a href="https://github.com/dhruvmishradev?tab=followers"><img src="https://img.shields.io/github/followers/dhruvmishradev?style=flat-square&logo=github&label=FOLLOWERS&color=6366f1&labelColor=0f172a" alt="Followers"/></a>
-<a href="https://web-site-nine-pi.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE%203D-38bdf8?style=flat-square&logo=vercel&labelColor=0f172a" alt="Live Portfolio"/></a>
-<img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20ROLES-10b981?style=flat-square&labelColor=0f172a" alt="Status"/>
-<img src="https://img.shields.io/badge/LOCATION-INDIA%20%2F%20REMOTE-8b5cf6?style=flat-square&labelColor=0f172a" alt="Location"/>
+<!-- Status Pills -->
+<a href="https://github.com/dhruvmishradev"><img src="https://komarev.com/ghpvc/?username=dhruvmishradev&style=flat-square&color=00f0ff&label=VIEWS" alt="Profile Views"/></a>
+<a href="https://github.com/dhruvmishradev?tab=followers"><img src="https://img.shields.io/github/followers/dhruvmishradev?style=flat-square&logo=github&label=FOLLOWERS&color=7928ca&labelColor=050514" alt="Followers"/></a>
+<a href="https://web-site-nine-pi.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-3D%20LIVE-00f0ff?style=flat-square&logo=vercel&logoColor=black&labelColor=050514" alt="Live Portfolio"/></a>
+<img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20ROLES-00ff9d?style=flat-square&labelColor=050514" alt="Status"/>
+<img src="https://img.shields.io/badge/LOCATION-INDIA%20%2F%20REMOTE-b026ff?style=flat-square&labelColor=050514" alt="Location"/>
 
 </div>
 
 <br/>
 
-<!-- System Initialization Simulation -->
+<!-- System Initialization Console -->
 ```console
 $ ./boot_dhruv_core.sh --profile=recruiter_view --mode=production
 [ SYSTEM ] Initializing Runtime Engine ..................... Dhruv Mishra (AI & Full-Stack Engineer)
@@ -35,15 +35,15 @@ $ ./boot_dhruv_core.sh --profile=recruiter_view --mode=production
 
 ---
 
-## ⚡ Executive Summary
+## ⚡ Core Engineering Thesis
 
 I am a **Software Engineer specializing in AI Systems, Autonomous Multi-Agent Frameworks, and Production Full-Stack Development**. 
 
-Unlike simple API wrappers, my work focuses on **end-to-end reliability**: building latency-optimized inference pipelines with Groq and FastAPI, chaining autonomous agents with LangChain Expression Language (LCEL), orchestrating multi-modal media extractors with FFmpeg and Whisper, and delivering reactive user interfaces with Next.js 16, React 19, and Three.js.
+Unlike simple API wrappers, my work centers on **production reliability**: building latency-optimized inference pipelines with Groq and FastAPI, chaining autonomous agents with LangChain Expression Language (LCEL), orchestrating multimodal media extractors with FFmpeg and Whisper, and delivering reactive user interfaces with Next.js 16, React 19, and Three.js.
 
 > [!TIP]
-> **What I Bring to Your Team:**
-> - **Production AI Architecture:** Hands-on experience designing multi-agent coordination, web intelligence scraping, and custom RAG retrieval strategies.
+> **Engineering Value Proposition:**
+> - **Autonomous Agent Architecture:** Hands-on experience designing multi-agent coordination, web intelligence scraping, and custom RAG retrieval strategies.
 > - **Full-Stack Execution:** Ability to take a raw technical requirement from database schema (PostgreSQL / Supabase) through backend APIs to interactive client interfaces.
 > - **Ship Velocity:** Track record of rapidly prototyping, testing, and deploying production-grade applications with zero downtime.
 
@@ -67,7 +67,7 @@ Unlike simple API wrappers, my work focuses on **end-to-end reliability**: build
 ## 📐 Autonomous Agent & RAG System Architecture
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dhruvmishradev/dhruvmishradev/main/agent-rag-pipeline.svg" width="100%" alt="Autonomous Agent & RAG Architecture Workflow"/>
+  <img src="https://raw.githubusercontent.com/dhruvmishradev/dhruvmishradev/main/agent-pipeline-v3.svg" width="100%" alt="Autonomous Agent & RAG Architecture Workflow"/>
 </div>
 
 <br/>
@@ -135,10 +135,10 @@ flowchart LR
 </td>
 <td>
 <a href="https://video-agent-steel.vercel.app">
-<img src="https://img.shields.io/badge/Live_Demo-Vercel-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+<img src="https://img.shields.io/badge/Live_Demo-Vercel-00f0ff?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo"/>
 </a><br/><br/>
 <a href="https://github.com/dhruvmishradev/VideoAgent">
-<img src="https://img.shields.io/badge/Source_Code-GitHub-334155?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+<img src="https://img.shields.io/badge/Source_Code-GitHub-7928ca?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
 </a>
 </td>
 </tr>
@@ -162,10 +162,10 @@ flowchart LR
 </td>
 <td>
 <a href="https://generative-ai-cyan.vercel.app">
-<img src="https://img.shields.io/badge/Live_Demo-Vercel-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+<img src="https://img.shields.io/badge/Live_Demo-Vercel-00f0ff?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo"/>
 </a><br/><br/>
 <a href="https://github.com/dhruvmishradev/Generative-AI">
-<img src="https://img.shields.io/badge/Source_Code-GitHub-334155?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+<img src="https://img.shields.io/badge/Source_Code-GitHub-7928ca?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
 </a>
 </td>
 </tr>
@@ -189,7 +189,7 @@ flowchart LR
 </td>
 <td>
 <a href="https://github.com/dhruvmishradev/MultiAgent">
-<img src="https://img.shields.io/badge/Source_Code-GitHub-334155?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+<img src="https://img.shields.io/badge/Source_Code-GitHub-7928ca?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
 </a>
 </td>
 </tr>
@@ -212,10 +212,10 @@ flowchart LR
 </td>
 <td>
 <a href="https://github.com/dhruvmishradev/Rag">
-<img src="https://img.shields.io/badge/RAG_Repo-GitHub-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="RAG Repo"/>
+<img src="https://img.shields.io/badge/RAG_Repo-GitHub-00ff9d?style=for-the-badge&logo=github&logoColor=black" alt="RAG Repo"/>
 </a><br/><br/>
 <a href="https://github.com/dhruvmishradev/Runnables">
-<img src="https://img.shields.io/badge/LCEL_Repo-GitHub-334155?style=for-the-badge&logo=github&logoColor=white" alt="LCEL Repo"/>
+<img src="https://img.shields.io/badge/LCEL_Repo-GitHub-7928ca?style=for-the-badge&logo=github&logoColor=white" alt="LCEL Repo"/>
 </a>
 </td>
 </tr>
@@ -239,10 +239,10 @@ flowchart LR
 </td>
 <td>
 <a href="https://dash-board-one-kappa.vercel.app">
-<img src="https://img.shields.io/badge/Live_Demo-Vercel-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+<img src="https://img.shields.io/badge/Live_Demo-Vercel-00f0ff?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo"/>
 </a><br/><br/>
 <a href="https://github.com/dhruvmishradev/DashBoard">
-<img src="https://img.shields.io/badge/Source_Code-GitHub-334155?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+<img src="https://img.shields.io/badge/Source_Code-GitHub-7928ca?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
 </a>
 </td>
 </tr>
@@ -254,7 +254,7 @@ flowchart LR
 <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" alt="Three.js"/>
 <img src="https://img.shields.io/badge/R3F-000000?style=flat-square&logo=react&logoColor=61DAFB" alt="R3F"/>
 <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white" alt="GSAP"/>
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"/>
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
 </td>
 <td>
 <ul>
@@ -265,10 +265,10 @@ flowchart LR
 </td>
 <td>
 <a href="https://web-site-nine-pi.vercel.app">
-<img src="https://img.shields.io/badge/Live_Demo-Vercel-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+<img src="https://img.shields.io/badge/Live_Demo-Vercel-00f0ff?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo"/>
 </a><br/><br/>
 <a href="https://github.com/dhruvmishradev/WebSite">
-<img src="https://img.shields.io/badge/Source_Code-GitHub-334155?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+<img src="https://img.shields.io/badge/Source_Code-GitHub-7928ca?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
 </a>
 </td>
 </tr>
@@ -334,7 +334,7 @@ flowchart LR
 
 | Parameter | Standard | In Practice |
 |:--|:--|:--|
-| **Latency Budget** | `< 600ms TTFT` | Prioritize hardware-accelerated LPUs (Groq) and streaming tokens over blocking calls. |
+| **Latency Budget** | `< 500ms TTFT` | Prioritize hardware-accelerated LPUs (Groq) and streaming tokens over blocking calls. |
 | **Schema Validation** | `Strict (Pydantic)` | Eliminate hallucinated output formats; all LLM extractions map to typed models. |
 | **Resilience & Fallbacks** | `Multi-Provider` | Intelligent failover routing across Groq, OpenAI, and Google Gemini. |
 | **Architectural Modularity**| `LCEL Runnables` | Composable, reusable computational nodes that can be parallelized or chained. |
@@ -346,7 +346,7 @@ flowchart LR
 ## 📊 Performance & Real-Time Telemetry
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dhruvmishradev/dhruvmishradev/main/runtime-metrics.svg" width="100%" alt="Active Runtime Telemetry HUD"/>
+  <img src="https://raw.githubusercontent.com/dhruvmishradev/dhruvmishradev/main/runtime-hud-v3.svg" width="100%" alt="Active Runtime Telemetry HUD"/>
 </div>
 
 <br/>
@@ -354,13 +354,13 @@ flowchart LR
 <div align="center">
 
 <p>
-  <img src="https://img.shields.io/badge/Public_Repositories-15_Active-38bdf8?style=for-the-badge&logo=github&labelColor=0f172a" alt="Public Repos"/>
-  <img src="https://img.shields.io/github/followers/dhruvmishradev?style=for-the-badge&logo=github&label=Followers&color=818cf8&labelColor=0f172a" alt="Followers"/>
-  <img src="https://img.shields.io/badge/Status-Production_Ready-10b981?style=for-the-badge&logo=vercel&labelColor=0f172a" alt="Status"/>
+  <img src="https://img.shields.io/badge/Public_Repositories-15_Active-00f0ff?style=for-the-badge&logo=github&logoColor=black&labelColor=050514" alt="Public Repos"/>
+  <img src="https://img.shields.io/github/followers/dhruvmishradev?style=for-the-badge&logo=github&label=Followers&color=7928ca&labelColor=050514" alt="Followers"/>
+  <img src="https://img.shields.io/badge/Status-Production_Ready-00ff9d?style=for-the-badge&logo=vercel&logoColor=black&labelColor=050514" alt="Status"/>
 </p>
 
 <a href="https://github.com/dhruvmishradev">
-  <img src="https://streak-stats.demolab.com?user=dhruvmishradev&hide_border=true&background=0F172A&stroke=312E81&ring=38BDF8&fire=818CF8&currStreakNum=F8FAFC&sideNums=E2E8F0&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B" alt="Contribution streak"/>
+  <img src="https://streak-stats.demolab.com?user=dhruvmishradev&hide_border=true&background=050514&stroke=2A1B54&ring=00F0FF&fire=FF007F&currStreakNum=00FF9D&sideNums=E2E8F0&currStreakLabel=00F0FF&sideLabels=94A3B8&dates=64748B" alt="Contribution streak"/>
 </a>
 
 </div>
@@ -386,13 +386,13 @@ I am actively open to discussions regarding **AI Engineer**, **Full-Stack Develo
 <div align="center">
 
 <a href="https://web-site-nine-pi.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-LIVE%20DEMO-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-LIVE%20DEMO-00f0ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Portfolio"/>
 </a>
 <a href="https://github.com/dhruvmishradev">
-  <img src="https://img.shields.io/badge/GitHub-dhruvmishradev-312e81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-dhruvmishradev-7928ca?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 <a href="mailto:dhruvmishrain.dev@gmail.com">
-  <img src="https://img.shields.io/badge/Email-dhruvmishrain.dev@gmail.com-8b5cf6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-dhruvmishrain.dev@gmail.com-ff007f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 <br/><br/>
@@ -401,7 +401,7 @@ I am actively open to discussions regarding **AI Engineer**, **Full-Stack Develo
 printf("0 errors · 0 warnings · ready to build high-impact software\n");
 ```
 
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,50:312e81,100:0f172a&height=110&section=footer" width="100%" alt="Footer"/>
+<!-- Footer Wave (Cyberpunk Gradient) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0ff,35:7928ca,70:1a0636,100:030014&height=110&section=footer" width="100%" alt="Footer"/>
 
 </div>
