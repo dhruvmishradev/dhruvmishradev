@@ -66,6 +66,28 @@ Unlike simple API wrappers, my work focuses on **end-to-end reliability**: build
 
 ## 📐 Autonomous Agent & RAG System Architecture
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/dhruvmishradev/dhruvmishradev/main/agent-rag-pipeline.svg" width="100%" alt="Autonomous Agent & RAG Architecture Workflow"/>
+</div>
+
+<br/>
+
+<details>
+<summary><b>🔍 System Execution Flow & Architectural Deep Dive (Click to expand)</b></summary>
+
+<br/>
+
+| Tier | Component | Function & Latency Characteristics |
+|:--|:--|:--|
+| **1. Ingress** | Next.js 16 / React 19 Client | Progressive streaming Server-Sent Events (SSE) with optimistic UI updates. |
+| **2. Gateway** | FastAPI + Uvicorn Async Worker | High-throughput async non-blocking REST gateway handling session states. |
+| **3. Router** | LangChain LCEL Planner | Branching Directed Acyclic Graph (DAG) evaluating tool relevance dynamically. |
+| **4. Web Tool** | Tavily API + BeautifulSoup4 | Real-time web search and resilient HTML scraping for zero-knowledge queries. |
+| **5. RAG Tool** | Hybrid Chroma / FAISS Vector Store | Recursive character chunking with high-dimensional dense embeddings & BM25 fallback. |
+| **6. Media Tool** | yt-dlp + FFmpeg Pipeline | Audio normalization, silence trimming, and chunked transcription workflows. |
+| **7. Inference** | Groq LPU (Llama 3 70B) | Hardware-accelerated inference providing **480+ tokens/second** streaming output. |
+| **8. Guardrails** | Strict Pydantic Schemas | Deterministic structured JSON outputs ensuring zero hallucinated schemas. |
+
 ```mermaid
 flowchart LR
     User["👤 Client (Next.js 16 / React 19)"] -->|Streaming SSE| Gateway["⚡ API Gateway (FastAPI / Uvicorn)"]
@@ -80,6 +102,8 @@ flowchart LR
     Synthesizer -->|Prompt| Inference["⚡ Groq / Llama-3 (Pydantic Output)"]
     Inference -->|Real-time Token Stream| Gateway
 ```
+
+</details>
 
 ---
 
