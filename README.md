@@ -343,7 +343,13 @@ flowchart LR
 
 ---
 
-## 📊 Performance & GitHub Telemetry
+## 📊 Performance & Real-Time Telemetry
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/dhruvmishradev/dhruvmishradev/main/runtime-metrics.svg" width="100%" alt="Active Runtime Telemetry HUD"/>
+</div>
+
+<br/>
 
 <div align="center">
 
